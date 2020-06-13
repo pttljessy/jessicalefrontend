@@ -125,6 +125,7 @@
 			}
 		});
 	};
+
 	carousel();
 
 	$('nav .dropdown').hover(function(){

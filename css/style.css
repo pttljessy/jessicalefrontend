@@ -52,7 +52,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-body {
+body, footer {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -9080,6 +9080,7 @@ textarea.form-control {
   color: #1a1a1a; }
 
 .contact-section .box {
+  text-align: center;
   width: 100%;
   display: block;
   -webkit-border-radius: 4px;
@@ -9383,6 +9384,20 @@ textarea.form-control {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+.resume .section-title h2 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #18d26e;
+}
+
+ 
+.resume .section-title p {
+  font-weight: 450;
+  font-size: 20px;
+  color: black;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -9439,4 +9454,52 @@ textarea.form-control {
   top: 0;
   background: #18d26e;
   border: 2px solid #18d26e;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  display: block;
+  padding: 50px;
+}
+
+footer .content {
+  text-align: center;
+}
+
+footer .content .name {
+  color: black;
+  font-family: 'brandon_grotesqueblack';
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.lite {
+  opacity: 0.3;
+}
+
+footer .content .email {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #17b978;
+}
+
+footer .content .email-sub {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+footer .img-list {
+  margin-top: 20px;
+}
+
+.img-list {
+  display: block;
+}
+
+.img-list > * {
+  display: inline-block;
 }
